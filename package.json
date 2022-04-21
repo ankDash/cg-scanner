@@ -1,0 +1,25 @@
+{
+  "name": "cybersec",
+  "version": "1.0.0",
+  "description": "project will track the git activities",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Ankit Kurve",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-request": "^4.2.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
